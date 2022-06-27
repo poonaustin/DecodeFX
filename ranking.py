@@ -32,7 +32,7 @@ hide_anchor_link()
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
 
-col1, col2, col3 = st.columns([120,120,120])
+col1, col2, col3 = st.columns([120,130,120])
 with col1:
     st.write("")
 with col2:

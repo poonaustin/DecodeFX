@@ -1,8 +1,6 @@
-pip install openpyxl
-
-
 import streamlit as st
 import pandas as pd
+import openpyxl
 
 st.set_page_config(page_title="Decode Trading Competition", page_icon=":bar_chart:", layout="wide")
 

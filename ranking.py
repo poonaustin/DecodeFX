@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+import xlsxwriter
+
 
 st.set_page_config(page_title="Decode Trading Competition", page_icon=":bar_chart:", layout="wide")
 
@@ -49,7 +51,7 @@ button[title="View fullscreen"]{
 '''
 
 st.markdown(hide_img_fs, unsafe_allow_html=True)
-data = pd.read_excel('check 1.xlsx', sheet_name='Sheet1', engine = openpyxl)
+data = pd.read_excel('check 1.xlsx', sheet_name='Sheet1')
 st.table(data)
 
 

@@ -1,8 +1,3 @@
-import streamlit as st
-import pandas as pd
-from openpyxl import Workbook
-from io import BytesIO
-
 st.set_page_config(page_title="Decode Trading Competition", page_icon=":bar_chart:", layout="wide")
 
 hide_streamlit_style = """

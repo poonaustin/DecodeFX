@@ -1,16 +1,5 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
 import pandas as pd
-import numpy as np
-from pathlib import Path
-from datetime import datetime
-import datetime as dt
-import streamlit_authenticator as stauth
-import plotly.express as px
-import mysql.connector
-from mysql.connector import Error
-from io import BytesIO
-import xlsxwriter
 
 st.set_page_config(page_title="Decode Trading Competition", page_icon=":bar_chart:", layout="wide")
 

@@ -36,7 +36,7 @@ col1, col2, col3 = st.columns([120,120,120])
 with col1:
     st.write("")
 with col2:
-    st.image("/Users/decod/Desktop/logo.png", width = 500)
+    st.image("logo.png", width = 500)
     st.title("Trading Competition Ranking")
 with col3:
     st.write("")

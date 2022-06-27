@@ -49,7 +49,7 @@ button[title="View fullscreen"]{
 '''
 
 st.markdown(hide_img_fs, unsafe_allow_html=True)
-data = pd.read_excel('C:/Users/decod/Desktop/check 1.xlsx', sheet_name='Sheet1').astype(str)
+data = pd.read_excel('check 1.xlsx', sheet_name='Sheet1').astype(str)
 st.table(data)
 
 

@@ -21,6 +21,15 @@ def hide_anchor_link():
 hide_anchor_link()
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
+hide_table_row_index = """
+            <style>
+            tbody th {display:none}
+            .blank {display:none}
+            </style>
+            """
+
+st.markdown(hide_table_row_index, unsafe_allow_html=True)
+
 
 col1, col2, col3 = st.columns([120,130,120])
 with col1:
